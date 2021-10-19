@@ -1,0 +1,25 @@
+###
+POST http://localhost:8080/login
+Content-Type: application/json
+
+{
+  "username": "linda",
+  "password": "password"
+}
+
+<> 2021-10-19T134537.400.html
+
+###
+GET http://localhost:8080/management/api/v1/students
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJsaW5kYSIsImF1dGhvcml0aWVzIjpbeyJhdXRob3JpdHkiOiJzdHVkZW50OndyaXRlIn0seyJhdXRob3JpdHkiOiJzdHVkZW50OnJlYWQifSx7ImF1dGhvcml0eSI6ImNvdXJzZTpyZWFkIn0seyJhdXRob3JpdHkiOiJST0xFX0FETUlOIn0seyJhdXRob3JpdHkiOiJjb3Vyc2U6d3JpdGUifV0sImlhdCI6MTYzNDYzNzM5NywiZXhwIjoxNjM1NDUxMjAwfQ.9Y579Ra-nICC_iPrN-C528CWPk3uts8LDHlYQjIcIyTcFQ9GdOKZECtrREPMN_OigDNTt7yGU3c5pIXDumcJEA
+
+
+###
+POST http://localhost:8080/management/api/v1/students
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJsaW5kYSIsImF1dGhvcml0aWVzIjpbeyJhdXRob3JpdHkiOiJzdHVkZW50OndyaXRlIn0seyJhdXRob3JpdHkiOiJzdHVkZW50OnJlYWQifSx7ImF1dGhvcml0eSI6ImNvdXJzZTpyZWFkIn0seyJhdXRob3JpdHkiOiJST0xFX0FETUlOIn0seyJhdXRob3JpdHkiOiJjb3Vyc2U6d3JpdGUifV0sImlhdCI6MTYzNDYzNzM5NywiZXhwIjoxNjM1NDUxMjAwfQ.9Y579Ra-nICC_iPrN-C528CWPk3uts8LDHlYQjIcIyTcFQ9GdOKZECtrREPMN_OigDNTt7yGU3c5pIXDumcJEA
+Content-Type: application/json
+
+{
+  "studentId": 4,
+  "studentName": "Markus"
+}
